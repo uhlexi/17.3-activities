@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-container {
+    text-align: left;
+    background-color: #097969;
+    padding: 10px 0;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: #ccc;
+}
+.container {
+    overflow: hidden; /* Ensures that the container expands to contain floated elements */
+}
+
+.left-column {
+    width: 29%;
+    float: left;
+    background-color: #8A9A5B;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    width: 70%;
+    float: left;
+    background-color: #d0d0d0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Ensuring both columns have the same height */
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.example-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    float: center
+}
+.body-image {
+    max-width: 50%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    float: center
+}
+h1 {
+    font-family: 'Georgia', serif; /* Custom font for h1 */
+    font-size: 2.5em; /* Custom font size for h1 */
+    font-weight: bold; /* Custom font weight for h1 */
+    color: #097969; /* Custom color for h1 */
+    margin-bottom: 10px; /* Space below h1 */
+}
+
+p {
+    font-family: 'Verdana', sans-serif; /* Custom font for p */
+    font-size: 1.1em; /* Custom font size for p */
+    line-height: 1.6; /* Line height for better readability */
+    color: #555; /* Custom color for p */
+    margin-top: 0; /* Remove top margin for p */
+}
